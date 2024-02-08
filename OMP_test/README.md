@@ -1,5 +1,8 @@
 ## OpenMP in Fortran
 
+### Visual Studio
+生成解决方案后，项目属性->Fortran->语言->OpenMP支持->是
+
 ### 编译指导语句
 
 - [ ] 以!$OMP开头的指导语句
