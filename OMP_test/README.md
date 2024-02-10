@@ -179,8 +179,8 @@ thread 12 of 16 CPUs
 只执行了一个线程，其他线程都跳过了。
 
 ### 主要子句
-- [ ] private
-- [ ] shared
+- [ ] private private申明的变量不会继承其在并行区域外的值，需重新定义
+- [ ] shared 对shared进行操作时，必须执行critical避免竞争
 - [ ] default(private|shared|none) 并行区域中变量默认属性
 - [ ] reduction
 
