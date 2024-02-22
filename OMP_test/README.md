@@ -25,6 +25,7 @@ include 'omp_lib.h'
 - [ ] omp_get_max_threads() 获取最大线程数
 - [ ] omp_get_num_threads() 获取线程数
 - [ ] omp_get_thread_num() 获取线程号
+- [ ] omp_get_wtime() 获取当前时间
 
 ### 主要指令
 
